@@ -1,0 +1,73 @@
+body {background-color: black;}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #CC33CC;
+    --secondary: #CC6633;
+    --third:#CC3366;
+    --thirdLight: lightpink;
+}
+
+main.login  section.login{
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main.login  section.login  h1 {
+    color: #E2E2E2;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    font-size: xx-large;
+}
+
+main.login  section.login  form {
+    background-color: white;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 200px;
+}
+
+main.login  section.login  form  div {
+    background-color: #747474;
+    border: 0.15rem solid #747474;
+    border-radius: 0.6rem;
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+main.login  section.login  form  div  img {
+    height: 2.5rem;
+    padding: 0.3rem;
+}
+
+main.login  section.login  form  div  input {
+    width: 100%;
+    font-size: 1rem;
+    border:0;
+    background-color: transparent;
+}
+
+main.login  section.login  form  p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+main.login  section.login  form  a  button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 300px;
+    width: max-content;
+    font-size: xx-large;   
+}

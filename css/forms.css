@@ -1,0 +1,28 @@
+body {background-color: black;}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #CC33CC;
+    --secondary: #CC6633;
+    --third:#CC3366;
+    --thirdLight: lightpink;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+form fieldset {
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+form fieldset legend {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: var(--third);
+}
