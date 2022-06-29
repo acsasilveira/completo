@@ -4,7 +4,7 @@ header nav input#menu-toggle {
   
 header nav ul {
     display: none;
-    background-color: white;
+    background-color: black;
    }
 header nav ul li {
     text-align: left;
@@ -16,21 +16,21 @@ header nav label[for="menu-toggle"] {
     justify-content: flex-end;
 }
 header nav label[for="menu-toggle"] div.menu-hamburguer {
-    border: 1px solid white;
+    border: 1px solid black;
     width: 35px;
     height: 15px;
     margin: 15px 2px 5px 5px;
     cursor: pointer;
 }
-header nav label[for="menu-toggle"] div.menu-hamburguer span.hamburguer {
+header nav label[for="menu-toggle"] div.menu-hamburguer span.menu-hamburguer {
     position: relative;
     display: block;
     background-color: white;
     width: 30px;
     height: 2px;
 }
-header nav label[for="menu-toggle"] div.menu-hamburguer span.hamburguer:before,
-header nav label[for="menu-toggle"] div.menu-hamburguer span.hamburguer:after {
+header nav label[for="menu-toggle"] div.menu-hamburguer span.menu-hamburguer:before,
+header nav label[for="menu-toggle"] div.menu-hamburguer span.menu-hamburguer:after {
     position: absolute;
     display: block;
     background-color: white;
@@ -38,10 +38,10 @@ header nav label[for="menu-toggle"] div.menu-hamburguer span.hamburguer:after {
     height: 100%;
     content: "";
 }
-header nav label[for="menu-toggle"] div.menu-hamburguer span.hamburguer:before {
+header nav label[for="menu-toggle"] div.menu-hamburguer span.menu-hamburguer:before {
     top: -10px;
 }
-header nav label[for="menu-toggle"] div.menu-hamburguer span.hamburguer:after {
+header nav label[for="menu-toggle"] div.menu-hamburguer span.menu-hamburguer:after {
     bottom: -10px;
 }
 header nav input:checked ~ ul {
@@ -53,7 +53,7 @@ nav
 input:checked
 ~ label[for="menu-toggle"]
 div.menu-hamburguer
-span.hamburguer {
+span.menu-hamburguer {
   transform: rotate(45deg);
   transition: 0.5s;
 }
@@ -62,13 +62,13 @@ header
   input:checked
   ~ label[for="menu-toggle"]
   div.menu-hamburguer
-  span.hamburguer:before,
+  span.menu-hamburguer:before,
 header
   nav
   input:checked
   ~ label[for="menu-toggle"]
   div.menu-hamburguer
-  span.hamburguer:after {
+  span.menu-hamburguer:after {
   transform: rotate(90deg);
   transition: 0.5s;
 }
@@ -77,7 +77,7 @@ header
   input:checked
   ~ label[for="menu-toggle"]
   div.menu-hamburguer
-  span.hamburguer:before {
+  span.menu-hamburguer:before {
   top: 0px;
 }
 header
@@ -85,7 +85,7 @@ header
   input:checked
   ~ label[for="menu-toggle"]
   div.menu-hamburguer
-  span.hamburguer:after {
+  span.menu-hamburguer:after {
   bottom: 0px;
 }
 @keyframes fade-in {
